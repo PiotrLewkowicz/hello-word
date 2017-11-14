@@ -11,7 +11,7 @@ public class GoogleSearchByClassName {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
 		WebElement searchBox = driver.findElement(By.className("gsfi"));
-		searchBox.sendKeys ("Packt Publishing");
+		searchBox.sendKeys ("Packt Publishing gfdgd");
 		
 	}
 }
